@@ -68,6 +68,7 @@ class AlexNet(nn.Module):
 
         return x
     
+    
 def test():
     net = AlexNet()
     x = torch.randn(2, 3, 224, 224)
